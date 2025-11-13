@@ -1,0 +1,54 @@
+# 🛒 Supermercado Dart
+
+Um projeto básico de **gerenciamento de supermercado** feito em **Dart**.  
+Permite cadastrar clientes, produtos e realizar vendas — tudo estruturado em **camadas (Models, Repositories, Services)**.
+
+---
+
+## 🚀 Funcionalidades
+
+- 👥 **Cadastro e listagem de clientes**
+- 📦 **Cadastro e listagem de produtos**
+- 💰 **Realização de vendas** com atualização automática de estoque
+- 🧾 **Listagem de vendas registradas**
+- ⚙️ **Arquitetura em camadas**
+  - `models/` → estrutura de dados
+  - `repositories/` → armazenamento e busca
+  - `services/` → regras de negócio
+  - `bin/main.dart` → interface no terminal
+
+---
+
+## ⚙️ Pré-requisitos
+
+- [Dart SDK](https://dart.dev/get-dart/archive) **>= 3.9.4**
+- Um terminal (CMD, PowerShell, Linux ou VSCode terminal)
+
+Verifique se o Dart está instalado:
+
+```bash
+dart --version
+```
+
+## 📦 Instalação
+
+1. Clone o Repositório
+   git clone https://github.com/MarcuSantosDev/supermercado_dart.git
+
+2. Execute esse comando no terminal para extrair as dependências, isso criará novas pastas
+
+```bash
+dart pub get
+```
+
+## ▶️ Execução
+
+Rode o sistema no terminal com:
+
+dart run bin/main.dart
+
+## 👨‍💻 Autores
+
+Desenvolvido por Marcus Santos e Iago Pablo
+
+Projeto didático para estudo da linguagem Dart e boas práticas de arquitetura em camadas.
